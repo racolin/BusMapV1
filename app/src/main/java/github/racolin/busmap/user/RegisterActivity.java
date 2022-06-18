@@ -61,17 +61,23 @@ public class RegisterActivity extends AppCompatActivity {
                         InputStream inputStream;
                         try {
                             inputStream = getContentResolver().openInputStream(result.getData().getData());
-                            Bitmap bm = BitmapFactory.decodeStream(inputStream);
-                            int h = bm.getHeight();
-                            int w = bm.getWidth();
-                            int p = h > w ? w : h;
-                            h = (h - p) / 2;
-                            w = (w - p) / 2;
-                            ByteArrayOutputStream stream = new ByteArrayOutputStream();
-                            Bitmap bitmap = Bitmap.createBitmap(bm, w, h, p, p);
-                            bitmap.compress(Bitmap.CompressFormat.PNG, 100, stream);
-                            iv_avatar.setImageBitmap(bitmap);
-                            image = stream.toByteArray();
+                            btn_register.setEnabled(false);
+                            new Thread(() -> {
+                                Bitmap bm = BitmapFactory.decodeStream(inputStream);
+                                int h = bm.getHeight();
+                                int w = bm.getWidth();
+                                int p = h > w ? w : h;
+                                h = (h - p) / 2;
+                                w = (w - p) / 2;
+                                ByteArrayOutputStream stream = new ByteArrayOutputStream();
+                                Bitmap bitmap = Bitmap.createBitmap(bm, w, h, p, p);
+                                bitmap.compress(Bitmap.CompressFormat.PNG, 100, stream);
+                                image = stream.toByteArray();
+                                runOnUiThread(() -> {
+                                    btn_register.setEnabled(true);
+                                    iv_avatar.setImageBitmap(bitmap);
+                                });
+                            }).start();
                         } catch (FileNotFoundException e) {
                             e.printStackTrace();
                         }
