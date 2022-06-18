@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- menu để luôn hiển thị icon saved -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/item_saved"
+        android:icon="@drawable/ic_heart"
+        android:title="Saved"
+        app:showAsAction="always"
+        app:iconTint="@color/secondary_900"/>
+</menu>

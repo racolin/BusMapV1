@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ripple dùng để tạo hiệu ứng khi click vào view
+ ripper_corner_5 dùng cho những view nào có sử dụng corner_5-->
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="@color/primary_200">
+    <item android:id="@android:id/mask">
+        <shape android:shape="rectangle">
+            <corners android:radius="5dp"/>
+            <solid android:color="@color/secondary_600"/>
+        </shape>
+    </item>
+    <item android:id="@android:id/background">
+        <shape android:shape="rectangle">
+            <corners android:radius="5dp"/>
+            <solid android:color="@color/secondary_900"/>
+        </shape>
+    </item>
+</ripple>

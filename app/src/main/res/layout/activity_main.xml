@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawable_layout"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:openDrawer="start"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="@color/primary_600">
+
+                <Spinner
+                    android:layout_gravity="center"
+                    android:id="@+id/side_spinner"
+                    android:background="@drawable/spinner_background"
+                    android:layout_width="250dp"
+                    android:layout_height="35dp" />
+
+            </androidx.appcompat.widget.Toolbar>
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <RelativeLayout
+            android:id="@+id/content_fragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+<!--            <com.google.android.material.floatingactionbutton.FloatingActionButton-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                app:backgroundTint="@color/primary_600"-->
+<!--                android:layout_above="@id/ll"-->
+<!--                android:id="@+id/fab_current"-->
+<!--                android:layout_alignParentEnd="true"-->
+<!--                android:layout_marginEnd="16dp"-->
+<!--                app:tint="@color/secondary_900"-->
+<!--                android:src="@drawable/ic_current_location"/>-->
+
+            <Button
+                android:id="@+id/btn_search"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/ripple_corner_5"
+                android:drawableLeft="@drawable/ic_search_magnifying"
+                android:drawableTint="@color/secondary_300"
+                android:fontFamily="@font/quicksand_medium"
+                android:gravity="left"
+                android:text="@string/find_location"
+                android:textColor="@color/secondary_200"
+                android:textSize="16sp"
+                app:backgroundTint="@color/secondary_900" />
+
+            <fragment
+                android:id="@+id/fm_map"
+                android:name="com.google.android.gms.maps.SupportMapFragment"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <LinearLayout
+                android:layout_alignParentBottom="true"
+                android:id="@+id/ll"
+                android:layout_margin="16dp"
+                android:layout_gravity="bottom|center_vertical"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/corner_20"
+                android:backgroundTint="@color/secondary_900">
+
+                <FrameLayout
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content">
+
+                    <ImageButton
+                        android:id="@+id/ib_search"
+                        android:paddingHorizontal="5dp"
+                        android:paddingTop="16dp"
+                        android:paddingBottom="36dp"
+                        android:scaleType="centerInside"
+                        android:layout_width="match_parent"
+                        android:layout_height="90dp"
+                        android:background="@drawable/ripple_left_20"
+                        android:src="@drawable/search_bus"/>
+
+                    <TextView
+                        android:layout_marginBottom="16dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="12sp"
+                        android:fontFamily="@font/quicksand_semi_bold"
+                        android:text="@string/search_text"
+                        android:layout_gravity="bottom|center_horizontal"/>
+
+                </FrameLayout>
+
+                <View
+                    android:layout_marginVertical="12dp"
+                    android:background="@color/secondary_600"
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"/>
+
+                <FrameLayout
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content">
+
+                    <ImageButton
+                        android:id="@+id/ib_find"
+                        android:paddingHorizontal="5dp"
+                        android:paddingTop="16dp"
+                        android:paddingBottom="36dp"
+                        android:scaleType="centerInside"
+                        android:layout_width="match_parent"
+                        android:layout_height="90dp"
+                        android:background="@drawable/ripple_right_20"
+                        android:src="@drawable/find_road"/>
+
+                    <TextView
+                        android:layout_marginBottom="16dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="12sp"
+                        android:fontFamily="@font/quicksand_semi_bold"
+                        android:text="@string/find_bus_text"
+                        android:layout_gravity="bottom|center_horizontal"/>
+
+                </FrameLayout>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/nv_group"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:itemIconTint="@color/secondary_100"
+        app:itemTextColor="@color/secondary_100"
+        app:headerLayout="@layout/header_drawable_navigation"
+        app:menu="@menu/menu_drawable_navigation"/>
+
+</androidx.drawerlayout.widget.DrawerLayout>

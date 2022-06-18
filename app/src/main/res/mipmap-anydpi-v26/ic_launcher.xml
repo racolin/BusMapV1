@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+    <background android:drawable="@color/primary_800"
+        android:height="50dp" android:width="50dp" android:gravity="center" />
+    <foreground android:drawable="@drawable/icon_app"
+        android:height="16dp" android:width="16dp" android:bottom="0dp" />
+</adaptive-icon>

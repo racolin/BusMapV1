@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:paddingHorizontal="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_marginVertical="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/quicksand_bold"
+            android:text="Xe buýt hoạt động dịp lễ"
+            android:textSize="24sp"/>
+        <TextView
+            android:textColor="@color/secondary_300"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/quicksand_medium"
+            android:text="08/04/2022 23:15"
+            android:textSize="14sp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/secondary_500"/>
+        <TextView
+            android:layout_marginVertical="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/quicksand_medium"
+            android:text="Để đảm bảo phục vụ vận chuyển hành khách trong dịp Lễ Giỗ Tổ Hùng Vương, Ngày Giải phóng miền Nam thống nhất Đất nước (30/4) và Ngày Quốc tế Lao Động (01/5) năm 2022 sắp đến được thuận lợi, Cơ quan quản lý xe buýt TP.HCM đã phối hợp với các đơn vị vận tải xây dựng kế hoạch phục vụ cụ thể như sau:"
+            android:textSize="16sp"/>
+        <TextView
+            android:layout_marginVertical="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/quicksand_bold"
+            android:text="* Thời gian phục vụ:"
+            android:textSize="16sp"/>
+        <TextView
+            android:layout_marginVertical="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/quicksand_medium"
+            android:text="- Lễ Giỗ Tổ Hùng Vương: Từ ngày 09 tháng 4 năm 2022 đến hết ngày 11 tháng 4 năm 2022."
+            android:textSize="16sp"/>
+        <TextView
+            android:layout_marginVertical="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/quicksand_medium"
+            android:text="- Ngày Giải phóng miền Nam thống nhất Đất nước (30/4) và Ngày Quốc tế Lao động (01/5): Từ ngày 30 tháng 4 năm 2022 đến hết ngày 03 tháng 5 năm 2022."
+            android:textSize="16sp"/>
+
+        <TextView
+            android:layout_marginVertical="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/quicksand_bold"
+            android:text="* Các tuyến ngưng hoạt động trong các dịp Lễ:"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:layout_marginVertical="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/quicksand_medium"
+            android:text="- Từ ngày 09/4/2022 đến hết ngày 11/4/2022 và từ ngày 30/4/2022 đến hết ngày 03/5/2022 ngưng hoạt động tuyến 50 (Đại học Bách Khoa - Đại học Quốc Gia)."
+            android:textSize="16sp"/>
+        <TextView
+            android:layout_marginVertical="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/quicksand_medium"
+            android:text="- Từ ngày 10/4/2022 đến hết ngày 11/4/2022 và từ ngày 30/4/2022 đến hết ngày 03/5/2022 ngưng hoạt động tuyến 52 (Bến Thành - ĐH Quốc Tế)."
+            android:textSize="16sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="4dp"
+            android:fontFamily="@font/quicksand_medium"
+            android:text="- Từ ngày 10/4/2022 đến hết ngày 11/4/2022 và từ ngày 30/4/2022 đến hết ngày 02/5/2022 ngưng hoạt động tuyến 86 (Bến xe buýt Sài Gòn – Đại học Tôn Đức Thắng – Cầu Long Kiểng)."
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_marginVertical="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/quicksand_bold"
+            android:text="* Riêng tuyến xe buýt số 69 (Bến xe buýt Sài Gòn - Khu dân cư Vĩnh Lộc) có sự điều chỉnh thời gian đóng tuyến như sau:"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:layout_marginVertical="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/quicksand_medium"
+            android:text="- Đầu KCN Vĩnh Lộc chuyến cuối xuất bến lúc: 19 giờ 00"
+            android:textSize="16sp"/>
+        <TextView
+            android:layout_marginVertical="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/quicksand_medium"
+            android:text="- Đầu Công viên 23/9 chuyến cuối xuất bến lúc: 19 giờ 30"
+            android:textSize="16sp"/>
+        <TextView
+            android:layout_marginVertical="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/quicksand_medium"
+            android:text="Thời gian áp dụng kể từ ngày 09/4/2022 đến hết ngày 11/4/2022 và từ ngày 30/4/2022 đến hết ngày 03/5/2022."
+            android:textSize="16sp"/>
+        <TextView
+            android:layout_marginVertical="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/quicksand_medium"
+            android:text="Ngoài việc tổ chức hoạt động xe buýt nội tỉnh gắn với đặc thù hoạt động của các bến xe liên tỉnh trong dịp Lễ, Trung tâm và các doanh nghiệp vận tải cũng chuẩn bị phương tiện để hỗ trợ các bến xe tăng cường giải tỏa hành khách."
+            android:textSize="16sp"/>
+
+        <TextView
+            android:layout_marginVertical="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/quicksand_bold"
+            android:text="BusMap đã cập nhật tình hình hoạt động của các tuyến xe vào dịp lễ trên ứng dụng. Bạn có thể yên tâm di chuyển dễ dàng và tiện lợi."
+            android:textSize="16sp"/>
+
+    </LinearLayout>
+</ScrollView>

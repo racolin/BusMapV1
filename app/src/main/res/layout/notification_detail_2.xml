@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:paddingHorizontal="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_marginVertical="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/quicksand_bold"
+            android:text="Tạm điều chỉnh lộ tuyến"
+            android:textSize="24sp"/>
+        <TextView
+            android:textColor="@color/secondary_300"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/quicksand_medium"
+            android:text="01/04/2022 20:31"
+            android:textSize="14sp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/secondary_500"/>
+        <TextView
+            android:layout_marginVertical="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/quicksand_medium"
+            android:text="Do phân luồng giao thông, để thuận tiện cho người dân di chuyển, Cơ quan quản lý xe buýt thông báo tạm điều chỉnh lộ trình trong ngày 02 tháng 4 năm 2022 của các tuyến xe buýt qua khu vực đường Phạm Ngũ Lão quận Gò Vấp như sau:"
+            android:textSize="16sp"/>
+        <TextView
+            android:layout_marginVertical="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/quicksand_bold"
+            android:text="1. Tuyến số 3:"
+            android:textSize="16sp"/>
+        <TextView
+            android:layout_marginVertical="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/quicksand_medium"
+            android:text="Đường Nguyễn Thái Sơn - Đường Phạm Ngũ Lão - Đường Nguyễn Oanh --> Đường Nguyễn Thái Sơn -  Đường Phan Văn Trị  - Đường Nguyễn Oanh"
+            android:textSize="16sp"/>
+        <TextView
+            android:layout_marginVertical="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/quicksand_bold"
+            android:text="2. Tuyến số 7:"
+            android:textSize="16sp"/>
+        <TextView
+            android:layout_marginVertical="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/quicksand_medium"
+            android:text="Đường Phan Văn Trị - Đường Nguyễn Thái Sơn - Đường Phạm Ngũ Lão - Đường Nguyễn Kiệm --> Đường Phan Văn Trị - Đường Trần Thị Nghỉ - Đường Nguyễn Kiệm"
+            android:textSize="16sp"/>
+        <TextView
+            android:layout_marginVertical="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/quicksand_bold"
+            android:text="3. Tuyến số 55:"
+            android:textSize="16sp"/>
+        <TextView
+            android:layout_marginVertical="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/quicksand_medium"
+            android:text="Đường Nguyễn Thái Sơn - Đường Phạm Ngũ Lão - Đường Quang Trung --> Đường Nguyễn Thái Sơn - Đường Phan Văn Trị - Đường Trần Thị Nghỉ - Đường Quang Trung"
+            android:textSize="16sp"/>
+        <TextView
+            android:layout_marginVertical="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/quicksand_bold"
+            android:text="4. Tuyến số 59:"
+            android:textSize="16sp"/>
+        <TextView
+            android:layout_marginVertical="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/quicksand_medium"
+            android:text="Đường Nguyễn Thái Sơn - Đường Phạm Ngũ Lão - Đường Nguyễn Oanh --> Đường Nguyễn Thái Sơn - Đường Phan Văn Trị  - Đường Nguyễn Văn Nghi  - Đường Nguyễn Oanh"
+            android:textSize="16sp"/>
+        <TextView
+            android:layout_marginVertical="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/quicksand_bold"
+            android:text="5. Tuyến số 103:"
+            android:textSize="16sp"/>
+        <TextView
+            android:layout_marginVertical="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/quicksand_medium"
+            android:text="Đường Nguyễn Thái Sơn - Đường Phạm Ngũ Lão - Đường Quang Trung --> Đường Nguyễn Thái Sơn - Đường Nguyễn Văn Nghi - Đường Quang Trung"
+            android:textSize="16sp"/>
+        <TextView
+            android:layout_marginVertical="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/quicksand_bold"
+            android:text="6. Tuyến số 148:"
+            android:textSize="16sp"/>
+        <TextView
+            android:layout_marginVertical="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/quicksand_medium"
+            android:text="Đường Nguyễn Thái Sơn – Đường Phạm Ngũ Lão – Đường Nguyễn Kiệm --> Đường Nguyễn Thái Sơn – Đường Phan Văn Trị - Đường Trần Thị Nghỉ - Đường Nguyễn Kiệm"
+            android:textSize="16sp"/>
+        <TextView
+            android:layout_marginVertical="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/quicksand_bold"
+            android:text="BusMap đã cập nhật dữ liệu của các tuyến trên ứng dụng. Bạn chỉ cần chọn vào &quot;Cập nhật dữ liệu mới&quot; trong &quot;Menu&quot; và sử dụng tính năng &quot;Tìm đường&quot; để di chuyển tiện lợi hơn bạn nhé."
+            android:textSize="16sp"/>
+    </LinearLayout>
+
+</ScrollView>

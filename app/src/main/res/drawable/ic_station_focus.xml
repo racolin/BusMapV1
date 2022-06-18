@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- marker được dùng khi ta focus vào trạm dừng -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:width="28dp" android:height="28dp"
+        android:drawable="@drawable/circle_marker_focus" />
+    <item android:drawable="@drawable/ic_bus_mini" android:width="16dp"
+        android:height="16dp" android:gravity="center_horizontal" android:top="6dp"/>
+    <item android:drawable="@drawable/triangle_focus" android:width="12dp"
+        android:height="12dp" android:top="26dp" android:gravity="center_horizontal"/>
+    <item android:drawable="@drawable/ic_station_small" android:width="6dp"
+        android:height="6dp" android:top="32dp" android:gravity="center_horizontal"/>
+</layer-list>

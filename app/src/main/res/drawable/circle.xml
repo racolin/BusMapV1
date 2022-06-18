@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Shap này dùng làm background cho avatar trong các trang
+ login, register và information -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="1000dp"/>
+    <stroke android:width="4dp" android:color="@color/secondary_500"/>
+</shape>

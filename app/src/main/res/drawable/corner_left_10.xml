@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Shape với bo 2 góc trên trái và dưới trái là 10dp -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:bottomLeftRadius="10dp" android:topLeftRadius="10dp"/>
+</shape>

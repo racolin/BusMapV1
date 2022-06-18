@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".route.RouteDetailActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/primary_600"
+        android:theme="@style/ToolbarLight" />
+
+    <fragment
+        android:layout_above="@id/ll"
+        android:layout_below="@id/toolbar"
+        android:id="@+id/fm_map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:name="com.google.android.gms.maps.SupportMapFragment"/>
+
+    <LinearLayout
+        android:id="@+id/ll"
+        android:background="@color/secondary_900"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="350dp">
+
+        <LinearLayout
+            android:id="@+id/drag"
+            android:paddingHorizontal="8dp"
+            android:paddingVertical="8dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/tv_id"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:textSize="18sp"
+                android:fontFamily="@font/quicksand_bold"
+                android:textColor="@color/secondary_900"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:backgroundTint="@color/primary_600"
+                android:background="@drawable/corner_10"/>
+            <TextView
+                android:id="@+id/tv_name"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:textSize="18sp"
+                android:fontFamily="@font/quicksand_semi_bold"/>
+        </LinearLayout>
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tab_layout"
+            app:tabTextAppearance="@style/tab_text"
+            app:tabSelectedTextColor="@color/primary_600"
+            app:tabTextColor="@color/secondary_300"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/vp2_detail_route"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+
+</RelativeLayout>

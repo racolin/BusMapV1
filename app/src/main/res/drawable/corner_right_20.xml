@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Shape với bo 2 góc trên phải và dưới phải là 20dp -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:bottomRightRadius="20dp"
+        android:topRightRadius="20dp"/>
+    <solid android:color="@color/secondary_900"/>
+</shape>

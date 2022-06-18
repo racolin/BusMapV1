@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- icon round của app -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:height="64dp" android:width="64dp" android:gravity="center">
+        <shape>
+            <corners android:radius="128dp"/>
+            <solid android:color="@color/primary_800"/>
+        </shape>
+    </item>
+    <item android:drawable="@drawable/ic_bus" android:height="32dp"
+        android:gravity="center" android:width="32dp"/>
+</layer-list>

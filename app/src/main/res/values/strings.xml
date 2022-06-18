@@ -1,0 +1,140 @@
+<resources>
+<!--  API_KEY google map  -->
+    <string name="apiKey">AIzaSyBOGqG1rMs9M-Q9RW6Yq2Jy81Kiob9sXUo</string>
+    <string name="app_name">Busmap</string>
+    <!--    -->
+    <string name="title_splash">Đồ án cuối kỳ</string>
+    <string name="group_name">Nhóm 16</string>
+    <string name="starting">Đang khởi động...</string>
+    <!--  Các string trong phần content navigation  -->
+    <string name="notification_text">Thông báo</string>
+    <string name="function_group_text">Chức năng</string>
+    <string name="find_bus_text">Tìm chuyến</string>
+    <string name="find_address_text">Tìm địa điểm</string>
+    <string name="search_text">Tra cứu</string>
+    <string name="update_text">Cập nhật</string>
+    <string name="feedback_group_text">Phản hồi</string>
+    <string name="feedback_text">Góp ý</string>
+    <string name="rate_text">Đánh giá</string>
+    <string name="information_text">Thông tin</string>
+    <!--  Các string phần header của navigation  -->
+    <string name="person_info_text">Thông tin</string>
+    <string name="login_text">Đăng nhập</string>
+    <string name="logout_text">Đăng xuất</string>
+    <!--  String cho icon bên trái toolbar đóng mở navigation  -->
+    <string name="open_nav">Mở Navigation</string>
+    <string name="close_nav">Đóng Navigation</string>
+    <!--  Các string label và hint dùng khi đăng ký, đăng nhập,... -->
+    <string name="phone_text">Số điện thoại</string>
+    <string name="pass_label">Mật khẩu</string>
+    <string name="pass_hint">VD: 123456789aZ</string>
+    <string name="hint_phone">VD: 0868754872</string>
+    <string name="email_text">Email</string>
+    <string name="hint_email">VD: phantrungtin01@gmail.com</string>
+    <string name="name_text">Họ và tên</string>
+    <string name="hint_name">VD: Phan Trung Tín</string>
+    <string name="gender_text">Giới tính</string>
+    <string name="dob_text">Ngày sinh</string>
+    <string name="hint_dob">11/05/2001</string>
+    <string name="update_info_text">Cập nhật thông tin</string>
+    <string name="register">Đăng ký</string>
+    <string name="register_label">Thông tin đăng ký</string>
+    <string name="change_password">Đổi mật khẩu</string>
+    <string name="ok">OK</string>
+    <string name="cancel">HỦY</string>
+    <string name="old_password">Mật khẩu hiện tại</string>
+    <string name="new_password">Mật khẩu mới</string>
+    <string name="re_new_password">Nhập lại mật khẩu</string>
+    <string name="complete">Hoàn thành</string>
+    <!--  String cho mục Phản hồi -->
+    <string name="feedback_content_1">Mọi thông tin góp ý xin gửi về địa chỉ</string>
+    <string name="feedback_content_2">E- mail: phantrungtin@gmail.com</string>
+    <!--  String cho mục Thông tin  -->
+    <string name="member_title">Thành viên thực hiện</string>
+    <string name="tin_member">1. Phan Trung Tín - 19110475</string>
+    <string name="hoa_member">2. Phạm Đinh Quốc Hòa - 19110365</string>
+    <string name="phi_member">3. Võ Minh Trí - 19110483</string>
+    <string name="tri_member">4. Võ Nhật Phi - 19110426</string>
+    <string name="rate_hint">Viết bình luận</string>
+    <string name="rate_label">Nội dung</string>
+    <string name="send_rate">Gửi</string>
+    <!--  String cho mục đánh giá  -->
+    <!--  String array là danh sách các đánh giá được dùng để chọn rate  -->
+    <string-array name="rate_type">
+        <item>Không tốt!</item>
+        <item>Tạm được!</item>
+        <item>Khá tốt!</item>
+        <item>Giỏi lắm!</item>
+        <item>Xuất sắc!</item>
+    </string-array>
+    <string name="toast_send_rate">Đánh giá đã được ghi nhận!</string>
+    <!--  String được dùng trong trang thông báo lỗi  -->
+    <string name="code_not_found">Error 404</string>
+    <string name="not_found">Không tìm thấy trang!</string>
+    <string name="code_need_logged">Error 401</string>
+    <string name="notification_detail_text">Chi tiết thông báo</string>
+    <string name="find_location">Tìm kiếm địa điểm...</string>
+    <string name="pick_route">Chọn tuyến xe buýt</string>
+    <!--  Các string cho trang thông tin tuyến xe  -->
+    <string name="route_id_info">Tuyến số:</string>
+    <string name="route_number">Tuyến số</string>
+    <string name="route_name">Tên tuyến:</string>
+    <string name="route_operating_time">Thời gian hoạt động:</string>
+    <string name="route_price">Giá vé:</string>
+    <string name="route_type">Loại tuyến:</string>
+    <string name="route_time_run">Thời gian chạy:</string>
+    <string name="route_repeat">Có chuyến sau khoảng:</string>
+    <string name="route_amount">Số chuyến:</string>
+    <string name="route_unit">Đơn vị:</string>
+    <string name="route_tab_info">Thông tin</string>
+    <!--  String cho các tab  -->
+    <string name="route_tab_bus_stop">Trạm dừng</string>
+    <string name="route_tab">Tuyến xe</string>
+    <!--    -->
+    <string name="route_pass">Danh sách các tuyến xe đi qua</string>
+    <string name="saved_toast">Đã lưu vào mục yêu thích</string>
+    <string name="deleted_toast">Đã xóa khỏi mục yêu thích</string>
+    <!--  String cập nhật dữ liệu  -->
+    <string name="download">TẢI</string>
+    <string name="close">ĐÓNG</string>
+    <string name="update_data">Cập nhật dữ liệu</string>
+    <string name="update_date">Ngày cập nhật dữ liệu gần nhất</string>
+    <string name="update_content">BusMap sẽ tải và cập nhật dữ liệu mới nhất. Quá trình có thể mất vài giây thậm chí là vài phút.</string>
+    <!--    -->
+    <string name="saved">Danh sách yêu thích</string>
+    <string name="detail">Chi tiết</string>
+    <!--  Các string mặc định trong tìm đường  -->
+    <string name="find_road_result">Kết quả tìm đường</string>
+    <string name="list_route_result">Danh sách các tuyến xe phù hợp</string>
+    <string name="moving_guide">Hướng dẫn di chuyển</string>
+    <string name="guide_detail">Chi tiết cách đi</string>
+    <string name="pass_bus_stop">Các trạm đi qua</string>
+    <string name="from">Đi từ</string>
+    <string name="to">Đến</string>
+    <string name="from_hint">Nhập địa điểm xuất phát</string>
+    <string name="to_hint">Nhập địa điểm đến</string>
+    <string name="find_road">Tìm đường</string>
+    <string-array name="amount_route">
+        <item>Đi tối đa 1 chuyến</item>
+        <item>Đi tối đa 2 chuyến</item>
+        <item>Đi tối đa 3 chuyến</item>
+    </string-array>
+    <!--  Chuỗi các string dùng để Toast  -->
+    <string name="change_password_success">Đổi mật khẩu thành công!</string>
+    <string name="change_password_fail">Đổi mật khẩu thất bại!</string>
+    <string name="not_match_password">Mật khẩu không khớp!</string>
+    <string name="uninvalid_email">Email không hợp lệ!</string>
+    <string name="uninvalid_password">Mật khẩu không hợp lệ!</string>
+    <string name="duplicate_password">Mật khẩu mới phải khác mật khẩu cũ!</string>
+    <string name="uploaded_before">Bạn đã cập nhật rồi!</string>
+    <string name="account_exists">Tài khoản này đã tồn tại!</string>
+    <string name="register_success">Bạn đã đăng ký thành công!</string>
+    <string name="fill">Cần điền đầy đủ thông tin!</string>
+    <string name="login_success">Đăng nhập thành công!</string>
+    <string name="login_fail">Đăng nhập thất bại!</string>
+    <string name="need_logged">Bạn cần phải đăng nhập!</string>
+    <string name="update_success">Cập nhật thành công!</string>
+    <string name="lat_label">"Vĩ độ: "</string>
+    <string name="lng_label">Kinh độ:</string>
+    <string name="route_input">Tìm tuyến xe...</string>
+</resources>

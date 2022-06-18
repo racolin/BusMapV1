@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="github.racolin.busmap">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:requestLegacyExternalStorage="true"
+        android:allowBackup="false"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/icon_app"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/icon_app_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Nhom16_Busmap"
+        tools:targetApi="31">
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBOGqG1rMs9M-Q9RW6Yq2Jy81Kiob9sXUo" />
+        <activity
+            android:name=".user.RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".user.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".result.ResultDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".result.ResultFindRoadActivity"
+            android:exported="false" />
+        <activity
+            android:name=".feedback.UpdateActivity"
+            android:exported="false" />
+        <activity
+            android:name=".saved.SavedActivity"
+            android:exported="false" />
+        <activity
+            android:name=".station.StationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".route.RouteDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".route.RouteActivity"
+            android:exported="false" />
+        <activity
+            android:name=".result.FindRoadActivity"
+            android:exported="false" />
+        <activity
+            android:name=".address.AddressSearchActivity"
+            android:exported="false" />
+        <activity
+            android:name=".notification.NotificationDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".notification.NotificationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".feedback.RateActivity"
+            android:exported="false" />
+        <activity
+            android:name=".feedback.InformationGroupActivity"
+            android:exported="false" />
+        <activity
+            android:name=".feedback.FeedbackActivity"
+            android:exported="false" />
+        <activity
+            android:name=".user.InformationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+    </application>
+
+</manifest>

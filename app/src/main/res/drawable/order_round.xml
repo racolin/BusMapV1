@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- order_round dùng trong tra cứu tuyến xe
+ khi click vào các trạm thì order_round xuất hiện tại vị trí ta vừa focus vào-->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="100dp"/>
+    <solid android:color="@color/secondary_900"/>
+    <stroke android:width="2dp" android:color="@color/primary_600"/>
+</shape>

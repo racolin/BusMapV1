@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Đây là phần menu cho navigation với các chức năng, phản hồi... -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/nv_notification"
+        android:iconTint="@color/secondary_100"
+        android:title="@string/notification_text"
+        android:icon="@drawable/ic_notification"/>
+    <group>
+        <item android:id="@+id/nv_function_group"
+            android:title="@string/function_group_text">
+            <menu>
+                <item android:id="@+id/nv_find_address"
+                    android:iconTint="@color/secondary_100"
+                    android:title="@string/find_address_text"
+                    android:icon="@drawable/ic_location"/>
+                <item android:id="@+id/nv_find_bus"
+                    android:iconTint="@color/secondary_100"
+                    android:title="@string/find_bus_text"
+                    android:icon="@drawable/ic_route"/>
+                <item android:id="@+id/nv_search"
+                    android:iconTint="@color/secondary_100"
+                    android:title="@string/search_text"
+                    android:icon="@drawable/ic_search"/>
+                <item android:id="@+id/nv_update"
+                    android:iconTint="@color/secondary_100"
+                    android:title="@string/update_text"
+                    android:icon="@drawable/ic_update"/>
+            </menu>
+        </item>
+    </group>
+    <group>
+        <item android:id="@+id/nv_feedback_group"
+            android:title="@string/feedback_group_text">
+            <menu>
+                <item android:id="@+id/nv_feedback"
+                    android:iconTint="@color/secondary_100"
+                    android:title="@string/feedback_text"
+                    android:icon="@drawable/ic_feedback"/>
+                <item android:id="@+id/nv_rate"
+                    android:iconTint="@color/secondary_100"
+                    android:title="@string/rate_text"
+                    android:icon="@drawable/ic_rate"/>
+                <item android:id="@+id/nv_information"
+                    android:iconTint="@color/secondary_100"
+                    android:title="@string/information_text"
+                    android:icon="@drawable/ic_info"/>
+            </menu>
+        </item>
+    </group>
+</menu>

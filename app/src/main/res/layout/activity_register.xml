@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".user.InformationActivity">
+
+    <RelativeLayout
+        android:id="@+id/rl_header"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+        <View
+            android:id="@+id/background_title"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:background="@color/primary_600" />
+
+        <RelativeLayout
+            android:id="@+id/ll_avatar"
+            android:layout_marginTop="65dp"
+            android:layout_centerHorizontal="true"
+            android:layout_width="130dp"
+            android:layout_height="130dp">
+
+            <ImageView
+                android:id="@+id/iv_avatar"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:clipToOutline="true"
+                android:background="@drawable/circle"
+                android:padding="4dp"
+                android:src="@drawable/avatar_default" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/circle"/>
+
+        </RelativeLayout>
+
+        <ImageButton
+            android:id="@+id/ib_choose_image"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignEnd="@id/ll_avatar"
+            android:layout_alignBottom="@id/ll_avatar"
+            android:layout_centerHorizontal="true"
+            android:background="@null"
+            android:src="@drawable/ic_camera"
+            app:tint="@color/primary_600" />
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/quicksand_bold"
+            android:text="@string/app_name"
+            android:textColor="@color/secondary_900"
+            android:textSize="34sp" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rl_header"
+        android:orientation="vertical"
+        android:paddingHorizontal="24dp"
+        android:paddingBottom="18sp">
+
+        <TextView
+            android:text="@string/register_label"
+            android:textSize="24sp"
+            android:fontFamily="@font/quicksand_bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="4dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/quicksand_semi_bold"
+                android:text="@string/name_text"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/edt_name"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginTop="2dp"
+                android:background="@drawable/edittext_border"
+                android:drawableTint="@color/primary_600"
+                android:fontFamily="@font/quicksand_semi_bold"
+                android:hint="@string/hint_name"
+                android:paddingLeft="12dp"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="4dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/quicksand_semi_bold"
+                    android:text="@string/gender_text"
+                    android:textSize="18sp" />
+
+                <Spinner
+                    android:id="@+id/spinner_gender"
+                    android:layout_width="100dp"
+                    android:layout_height="35dp"
+                    android:background="@drawable/edittext_border" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/quicksand_semi_bold"
+                    android:text="@string/dob_text"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/tv_dob"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/edittext_border"
+                    android:drawableTint="@color/primary_600"
+                    android:fontFamily="@font/quicksand_semi_bold"
+                    android:gravity="center_vertical"
+                    android:hint="@string/hint_dob"
+                    android:paddingLeft="12dp"
+                    android:textSize="18sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="4dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/quicksand_semi_bold"
+                android:text="@string/phone_text"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/edt_phone"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginTop="2dp"
+                android:background="@drawable/edittext_border"
+                android:drawableTint="@color/primary_600"
+                android:fontFamily="@font/quicksand_semi_bold"
+                android:hint="@string/hint_phone"
+                android:inputType="number"
+                android:paddingLeft="12dp"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="4dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/quicksand_semi_bold"
+                android:text="@string/email_text"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/edt_email"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginTop="2dp"
+                android:background="@drawable/edittext_border"
+                android:drawableTint="@color/primary_600"
+                android:fontFamily="@font/quicksand_semi_bold"
+                android:hint="@string/hint_email"
+                android:inputType="textEmailAddress"
+                android:paddingLeft="12dp"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="4dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/quicksand_semi_bold"
+                android:text="@string/pass_label"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/edt_pass"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginTop="2dp"
+                android:background="@drawable/edittext_border"
+                android:drawableTint="@color/primary_600"
+                android:fontFamily="@font/quicksand_semi_bold"
+                android:hint="@string/pass_hint"
+                android:inputType="textPassword"
+                android:paddingLeft="12dp"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ll_info"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/primary_600"
+        android:fontFamily="@font/quicksand_semi_bold"
+        android:paddingHorizontal="32dp"
+        android:text="@string/register"
+        android:textColor="@color/secondary_900"
+        android:textSize="16sp" />
+</RelativeLayout>

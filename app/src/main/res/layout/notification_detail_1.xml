@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="16dp">
+    <LinearLayout
+        android:paddingHorizontal="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_marginVertical="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/quicksand_bold"
+            android:text="Khôi phục hoạt động 15 tuyến xe buýt"
+            android:textSize="24sp"/>
+        <TextView
+            android:textColor="@color/secondary_300"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/quicksand_medium"
+            android:text="07/11/2021 08:33"
+            android:textSize="14sp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/secondary_500"/>
+        <TextView
+            android:layout_marginVertical="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/quicksand_medium"
+            android:text="Căn cứ vào Quyết định của Sở GTVT, tiếp tục khôi phục hoạt động thêm các tuyến buýt có trợ giá như sau:"
+            android:textSize="16sp"/>
+        <TextView
+            android:layout_marginVertical="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/quicksand_medium"
+            android:text="- Tuyến xe buýt số 7: Bến xe Buýt Chợ Lớn - Gò Vấp"
+            android:textSize="16sp"/>
+        <TextView
+            android:layout_marginVertical="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/quicksand_medium"
+            android:text="- Tuyến xe buýt số 30: Chợ Tân Hương - Đại học Quốc Tế"
+            android:textSize="16sp"/>
+        <TextView
+            android:layout_marginVertical="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/quicksand_medium"
+            android:text="- Tuyến xe buýt số 38: Khu Dân Cư Tân Quy - Bến Thành - Đầm Sen"
+            android:textSize="16sp"/>
+        <TextView
+            android:layout_marginVertical="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/quicksand_medium"
+            android:text="- Tuyến xe buýt số 39: Bến Thành - Võ Văn Kiệt - Bến xe Miền Tây "
+            android:textSize="16sp"/>
+        <TextView
+            android:layout_marginVertical="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/quicksand_medium"
+            android:text="- Tuyến xe buýt số 43: Bến xe Miền Đông – Phà Cát Lái"
+            android:textSize="16sp"/>
+        <TextView
+            android:layout_marginVertical="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/quicksand_medium"
+            android:text="- Tuyến xe buýt số 55: Công viên Phần Mềm Quang Trung - Khu Công Nghệ Cao ( Quận 9 ) "
+            android:textSize="16sp"/>
+        <TextView
+            android:layout_marginVertical="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/quicksand_medium"
+            android:text="- Tuyến xe buýt số 62: Bến xe Buýt Quận 8 - Thới An "
+            android:textSize="16sp"/>
+        <TextView
+            android:layout_marginVertical="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/quicksand_medium"
+            android:text="- Tuyến xe buýt số 64: Bến xe Miền Đông - Đầm Sen "
+            android:textSize="16sp"/>
+        <TextView
+            android:layout_marginVertical="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/quicksand_medium"
+            android:text="- Tuyến xe buýt số 71: Bến xe An Sương - Phật Cô Đơn"
+            android:textSize="16sp"/>
+        <TextView
+            android:layout_marginVertical="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/quicksand_medium"
+            android:text="- Tuyến xe buýt số 91: Bến xe Miền Tây - Chợ nông sản Thủ Đức "
+            android:textSize="16sp"/>
+        <TextView
+            android:layout_marginVertical="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/quicksand_medium"
+            android:text="- Tuyến xe buýt số 93: Bến Thành - Đại học Nông Lâm "
+            android:textSize="16sp"/>
+        <TextView
+            android:layout_marginVertical="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/quicksand_medium"
+            android:text="- Tuyến xe buýt số 103: Bến xe Buýt Chợ Lớn - Bến xe Ngã 4 Ga "
+            android:textSize="16sp"/>
+        <TextView
+            android:layout_marginVertical="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/quicksand_medium"
+            android:text="- Tuyến xe buýt số 126: Bến xe Củ Chi - Bình Mỹ "
+            android:textSize="16sp"/>
+        <TextView
+            android:layout_marginVertical="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/quicksand_medium"
+            android:text="- Tuyến xe buýt số 139 : Bến xe Miền Tây - Khu tái định cư Phú Mỹ "
+            android:textSize="16sp"/>
+        <TextView
+            android:layout_marginVertical="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/quicksand_medium"
+            android:text="- Tuyến xe buýt số 148: Bến xe Miền Tây - Gò Vấp"
+            android:textSize="16sp"/>
+        <TextView
+            android:layout_marginVertical="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/quicksand_bold"
+            android:text="BusMap sẽ thông báo đến các bạn khi có những thông tin mới nhất. Thông tin các tuyến buýt sẽ được cập nhật trên BusMap."
+            android:textSize="16sp"/>
+    </LinearLayout>
+
+</ScrollView>
