@@ -4,7 +4,7 @@
     <string name="app_name">Busmap</string>
     <!--    -->
     <string name="title_splash">Đồ án cuối kỳ</string>
-    <string name="group_name">Nhóm 16</string>
+    <string name="subject_name">Lập trình di động</string>
     <string name="starting">Đang khởi động...</string>
     <!--  Các string trong phần content navigation  -->
     <string name="notification_text">Thông báo</string>
@@ -49,12 +49,6 @@
     <!--  String cho mục Phản hồi -->
     <string name="feedback_content_1">Mọi thông tin góp ý xin gửi về địa chỉ</string>
     <string name="feedback_content_2">E- mail: phantrungtin@gmail.com</string>
-    <!--  String cho mục Thông tin  -->
-    <string name="member_title">Thành viên thực hiện</string>
-    <string name="tin_member">1. Phan Trung Tín - 19110475</string>
-    <string name="hoa_member">2. Phạm Đinh Quốc Hòa - 19110365</string>
-    <string name="phi_member">3. Võ Minh Trí - 19110483</string>
-    <string name="tri_member">4. Võ Nhật Phi - 19110426</string>
     <string name="rate_hint">Viết bình luận</string>
     <string name="rate_label">Nội dung</string>
     <string name="send_rate">Gửi</string>

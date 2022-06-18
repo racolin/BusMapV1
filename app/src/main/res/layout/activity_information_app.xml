@@ -44,47 +44,15 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:fontFamily="@font/quicksand_bold"
-        android:text="@string/member_title"
+        android:text="Người thực hiện:"
         android:textSize="24sp" />
 
-    <LinearLayout
-        android:layout_marginTop="12dp"
-        android:orientation="vertical"
-        android:paddingHorizontal="32dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
-        <TextView
-            android:layout_marginTop="4dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="18sp"
-            android:fontFamily="@font/quicksand_semi_bold"
-            android:text="@string/tin_member" />
-
-        <TextView
-            android:layout_marginTop="4dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="18sp"
-            android:fontFamily="@font/quicksand_semi_bold"
-            android:text="@string/hoa_member" />
-
-        <TextView
-            android:layout_marginTop="4dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="18sp"
-            android:fontFamily="@font/quicksand_semi_bold"
-            android:text="@string/phi_member" />
-
-        <TextView
-            android:layout_marginTop="4dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="18sp"
-            android:fontFamily="@font/quicksand_semi_bold"
-            android:text="@string/tri_member" />
-    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/quicksand_bold"
+        android:text="Phan Trung Tín"
+        android:textSize="24sp" />
 
 </LinearLayout>
